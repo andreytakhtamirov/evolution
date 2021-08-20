@@ -6,7 +6,7 @@ class Animal:
         self.speed_x = random.uniform(1, 100)
         self.speed_y = random.uniform(1, 100)
         self.strength = random.uniform(1, 100)
-        self.swim = random.uniform(1, 100)
+        self.swim = random.uniform(0, 100)
         self.max_uv_exposure = random.uniform(1, 100)
         self.size_x = random.uniform(1, 4)
         self.size_y = random.uniform(1, 4)
